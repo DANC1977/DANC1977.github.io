@@ -3,7 +3,6 @@ document.getElementById("id_logic_version").innerHTML = "Logic version: 2019.02.
 var svg = document.getElementById("id_svg");
 
 svg.addEventListener("touchstart", on_touch_svg);
-svg.addEventListener("mousedown", on_touch_svg);
 svg.addEventListener("touchmove", on_touch_svg);
 
 var svg_rect = svg.getBoundingClientRect();
