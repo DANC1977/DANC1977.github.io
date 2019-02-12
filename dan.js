@@ -29,7 +29,7 @@ function on_touch_svg(e)
 		sarpe.setAttribute("cx", e.changedTouches[i].pageX);  
 		sarpe.setAttribute("cy", e.changedTouches[i].pageY - svg_rect.top);
 		sarpe.setAttribute("rx", 120);
-		sarpe.setAttribute("ry", 60);
+		sarpe.setAttribute("ry", 120);
 		sarpe.setAttribute("fill", color);
 		svg.appendChild(sarpe);
 
